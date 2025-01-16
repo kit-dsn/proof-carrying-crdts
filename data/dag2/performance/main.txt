@@ -1,0 +1,167 @@
+npm run 'dag2:performance' [sample_size] [predecessors_min] [predecessors_max]
+Values: sample_size=100 predecessors_min=0 predecessors_max=5
+Predecessors: 0
+Execute: npm run dag2:performance-worker 50 0 0
+
+Finished: pid=1700076 signal=null status=0
+Execute: npm run dag2:performance-worker 50 0 1
+
+Finished: pid=1702630 signal=null status=0
+Predecessors: 1
+Execute: npm run dag2:performance-worker 25 1 0
+
+Finished: pid=1705322 signal=null status=0
+Execute: npm run dag2:performance-worker 25 1 1
+
+Finished: pid=1708966 signal=null status=0
+Execute: npm run dag2:performance-worker 25 1 2
+
+Finished: pid=1712236 signal=null status=0
+Execute: npm run dag2:performance-worker 25 1 3
+
+Finished: pid=1715509 signal=null status=0
+Predecessors: 2
+Execute: npm run dag2:performance-worker 15 2 0
+
+Finished: pid=1718804 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 1
+
+Finished: pid=1722440 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 2
+
+Finished: pid=1726176 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 3
+
+Finished: pid=1729927 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 4
+
+Finished: pid=1733287 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 5
+
+Finished: pid=1736531 signal=null status=0
+Execute: npm run dag2:performance-worker 15 2 6
+
+Finished: pid=1739757 signal=null status=0
+Predecessors: 3
+Execute: npm run dag2:performance-worker 10 3 0
+
+Finished: pid=1743008 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 1
+
+Finished: pid=1746011 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 2
+
+Finished: pid=1749025 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 3
+
+Finished: pid=1752024 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 4
+
+Finished: pid=1755048 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 5
+
+Finished: pid=1759409 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 6
+
+Finished: pid=1762409 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 7
+
+Finished: pid=1765426 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 8
+
+Finished: pid=1768412 signal=null status=0
+Execute: npm run dag2:performance-worker 10 3 9
+
+Finished: pid=1772886 signal=null status=0
+Predecessors: 4
+Execute: npm run dag2:performance-worker 10 4 0
+
+Finished: pid=1775946 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 1
+
+Finished: pid=1779752 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 2
+
+Finished: pid=1783568 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 3
+
+Finished: pid=1787378 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 4
+
+Finished: pid=1792562 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 5
+
+Finished: pid=1796390 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 6
+
+Finished: pid=1801903 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 7
+
+Finished: pid=1805717 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 8
+
+Finished: pid=1809572 signal=null status=0
+Execute: npm run dag2:performance-worker 10 4 9
+
+Finished: pid=1813362 signal=null status=0
+Predecessors: 5
+Execute: npm run dag2:performance-worker 5 5 0
+
+Finished: pid=1817185 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 1
+
+Finished: pid=1819552 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 2
+
+Finished: pid=1821920 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 3
+
+Finished: pid=1827750 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 4
+
+Finished: pid=1830900 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 5
+
+Finished: pid=1833848 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 6
+
+Finished: pid=1836200 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 7
+
+Finished: pid=1838579 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 8
+
+Finished: pid=1840970 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 9
+
+Finished: pid=1843343 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 10
+
+Finished: pid=1845735 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 11
+
+Finished: pid=1848120 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 12
+
+Finished: pid=1850487 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 13
+
+Finished: pid=1852888 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 14
+
+Finished: pid=1855265 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 15
+
+Finished: pid=1857656 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 16
+
+Finished: pid=1860037 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 17
+
+Finished: pid=1862398 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 18
+
+Finished: pid=1864767 signal=null status=0
+Execute: npm run dag2:performance-worker 5 5 19
+
+Finished: pid=1867144 signal=null status=0

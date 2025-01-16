@@ -1,0 +1,6 @@
+compile... [took 25.163s]
+initial... 0 (0,0,0,0,0) [took 6.402s]
+inc1... 1 (1,0,0,0,0) [took 9.405s]
+inc2... 1 (0,1,0,0,0) [took 9.367s]
+merge... 2 (1,1,0,0,0) [took 11.343s]
+verify... valid: true [took 0.670s]

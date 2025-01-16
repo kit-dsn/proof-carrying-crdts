@@ -1,0 +1,15 @@
+compile HashRecursionProgramDouble... [took 3.942s]
+create initialState proof... [took 5.386s]
+create first recursion proof... [took 7.457s]
+verify... valid: true [took 0.586s]
+check that hashes match...
+actual_hash:   3271569204915786621100538914229507138636671634840322574650154932939519691627
+expected_hash: 3271569204915786621100538914229507138636671634840322574650154932939519691627
+ [took 0.001s]
+create second recursion proof... [took 7.273s]
+create third recursion proof... [took 6.984s]
+verify... valid: true [took 0.573s]
+check that hashes match...
+actual_hash:   16235595237581143363038636559984571931293129164081535329940617019211684576637
+expected_hash: 16235595237581143363038636559984571931293129164081535329940617019211684576637
+ [took 0.002s]

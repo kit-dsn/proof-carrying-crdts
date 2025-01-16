@@ -1,0 +1,10 @@
+npm run 'dag2:performance-worker' [iterations] [number_of_predecessors] [worker_id]
+Values: iterations=5 number_of_predecessors=5 worker_id=18
+compile... [took 5.005s]
+initial update... [took 5.815s]
+5 predecessors...0
+1
+2
+3
+4
+ [took 320.617s]
