@@ -1,0 +1,18 @@
+Using 16 workers.
+idOfUpdate works as expected... [took 0.006s]
+compile... [took 5.358s]
+size of circuit...
+base: 71
+next: 76
+ [took 0.008s]
+create first update... Update {text='first update', group_id=[38;5;103m626d939dea[39m, depth=0, predecessors=[], id=[38;5;66m3f5372e4f3[39m} [took 6.001s]
+verify... valid: true [took 0.531s]
+create second update... Update {text='second update', group_id=[38;5;103m626d939dea[39m, depth=1, predecessors=[[38;5;66m3f5372e4f3[39m], id=[38;5;185mcbb91b3d03[39m} [took 17.820s]
+verify... valid: true [took 0.617s]
+create many concurrent updates...
+Update {text='update A', group_id=[38;5;103m626d939dea[39m, depth=2, predecessors=[[38;5;185mcbb91b3d03[39m], id=[38;5;79m29d38eed08[39m}
+Update {text='update B', group_id=[38;5;103m626d939dea[39m, depth=2, predecessors=[[38;5;185mcbb91b3d03[39m], id=[38;5;59m1b3b3b7a5c[39m}
+Update {text='update C', group_id=[38;5;103m626d939dea[39m, depth=2, predecessors=[[38;5;185mcbb91b3d03[39m], id=[38;5;186mb5be6038df[39m}
+ [took 54.293s]
+create combining update... Update {text='combining', group_id=[38;5;103m626d939dea[39m, depth=3, predecessors=[[38;5;79m29d38eed08[39m,[38;5;59m1b3b3b7a5c[39m,[38;5;186mb5be6038df[39m], id=[38;5;203me92442bf02[39m} [took 42.578s]
+verify... valid: true [took 0.636s]

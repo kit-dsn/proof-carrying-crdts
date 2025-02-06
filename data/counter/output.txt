@@ -1,0 +1,12 @@
+Using 16 workers.
+compile... [took 25.163s]
+size of circuit...
+increment: 1856
+initial: 21
+merge: 96
+ [took 0.141s]
+initial... 0 (0,0,0,0,0) [took 6.402s]
+inc1... 1 (1,0,0,0,0) [took 9.405s]
+inc2... 1 (0,1,0,0,0) [took 9.367s]
+merge... 2 (1,1,0,0,0) [took 11.343s]
+verify... valid: true [took 0.670s]

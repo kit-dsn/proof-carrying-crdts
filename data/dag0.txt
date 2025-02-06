@@ -1,0 +1,17 @@
+Using 16 workers.
+compile... [took 5.961s]
+size of circuit...
+base: 25
+step1: 25
+step2: 25
+ [took 0.006s]
+create base proof... Update {text='Hello World!', predecessors=[0,0], hash=26966712279313326227069515433909592914352283863144827887505126357537008925154} p0.maxProofsVerified=2 [took 5.888s]
+verify... valid: true [took 0.584s]
+recursive proof 1... Update {text='Lorem ipsum', predecessors=[26966712279313326227069515433909592914352283863144827887505126357537008925154,0], hash=8836841996657058446755979998114985480978764234186943166486941897626331763384} p1.maxProofsVerified=2 [took 8.593s]
+verify... valid: true [took 0.688s]
+recursive proof 2... Update {text='dolor sit amet', predecessors=[8836841996657058446755979998114985480978764234186943166486941897626331763384,26966712279313326227069515433909592914352283863144827887505126357537008925154], hash=24988649005404700475812035472506146263583120936648663861285905642016309028897} p2.maxProofsVerified=2 [took 11.881s]
+verify... valid: true [took 0.747s]
+test that base requires the predecessors to be 0... [took 6.225s]
+test that step1 requires the second predecessor to be 0... [took 8.727s]
+test that step1 requires the first predecessor to be the hash of the predecessor... [took 0.275s]
+test that step2 requires the predecessors to be the hash of the predecessors... [took 11.702s]

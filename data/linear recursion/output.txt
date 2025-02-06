@@ -1,0 +1,11 @@
+Using 16 workers.
+compile... [took 3.714s]
+create proof... [took 5.226s]
+verify proof... valid: true value: 0 [took 0.524s]
+save proof to file... length: 31116 [took 0.014s]
+read the proof again... [took 0.000s]
+verify proof... valid: true value: 0 [took 0.509s]
+create recursive proof... [took 7.397s]
+verify proof... valid: true value: 2 [took 0.508s]
+test that 1, 2 and -1 are not a valid baseCase... [took 0.517s]
+test that 0, 1 and 3 are not a valid step with the predecessor 1... [took 0.545s]

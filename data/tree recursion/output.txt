@@ -1,0 +1,13 @@
+Using 16 workers.
+compile... [took 5.271s]
+create proof constant 5... [took 5.684s]
+create proof constant 7... [took 4.748s]
+create proof constant 11... [took 5.210s]
+create proof 5 * 5 = 25... [took 11.757s]
+create proof 25 * 25 = 625... [took 10.502s]
+create proof 7 * 11 = 77... [took 10.949s]
+create proof 625 * 77 = 48125... [took 10.819s]
+save proof to file... length: 35252 [took 0.017s]
+verify... valid: true value: 48125 [took 0.627s]
+test that -1, 0, 1, 4, 6, 8, 12 are not a valid baseCase... [took 1.519s]
+test that -1, 0, 1, 24, 26 are not 5 multiplied with 5... [took 1.167s]

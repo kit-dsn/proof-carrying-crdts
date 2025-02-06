@@ -1,0 +1,1 @@
+CPU: 12th Gen Intel(R) Core(TM) i9-12900

@@ -1,0 +1,20 @@
+Using 16 workers.
+compile... [took 6.049s]
+size of circuit...
+base: 50
+step1: 39
+step2: 77
+ [took 0.012s]
+create base proof... Update {text='Hello World!', group_id=[38;5;149ma4ce3ced23[39m, depth=0, predecessors=[[38;5;16m0[39m,[38;5;16m0[39m], id=[38;5;77m32cf25052b[39m} [took 5.280s]
+recursive proof 1... Update {text='Lorem ipsum', group_id=[38;5;149ma4ce3ced23[39m, depth=1, predecessors=[[38;5;77m32cf25052b[39m,[38;5;16m0[39m], id=[38;5;74m24a4df9772[39m} [took 7.375s]
+recursive proof 2a... Update {text='dolor sit amet', group_id=[38;5;149ma4ce3ced23[39m, depth=2, predecessors=[[38;5;74m24a4df9772[39m,[38;5;16m0[39m], id=[38;5;97m773582eb67[39m} [took 8.010s]
+recursive proof 2b... Update {text='hä?', group_id=[38;5;149ma4ce3ced23[39m, depth=2, predecessors=[[38;5;74m24a4df9772[39m,[38;5;16m0[39m], id=[38;5;76m1edd07087b[39m} [took 8.324s]
+recursive proof 3... Update {text='consectetur adipiscing elit', group_id=[38;5;149ma4ce3ced23[39m, depth=3, predecessors=[[38;5;97m773582eb67[39m,[38;5;76m1edd07087b[39m], id=[38;5;65m226f3d7c06[39m} [took 12.123s]
+recursive proof 4... Update {text='consectetur adipiscing elit', group_id=[38;5;149ma4ce3ced23[39m, depth=4, predecessors=[[38;5;97m773582eb67[39m,[38;5;65m226f3d7c06[39m], id=[38;5;38m1781c0c755[39m} [took 11.919s]
+verify... valid: true [took 0.630s]
+test that errors are thrown on invalid depth: step1... [took 0.451s]
+test that errors are thrown on invalid depth: step2... [took 0.864s]
+test that base requires the predecessors to be 0... [took 5.869s]
+test that step1 requires the second predecessor to be 0... [took 8.658s]
+test that step1 requires the first predecessor to be the hash of the predecessor... [took 0.232s]
+test that step2 requires the predecessors to be the hash of the predecessors... [took 12.213s]

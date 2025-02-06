@@ -1,0 +1,45 @@
+{
+  "name": "proof-carrying-crdts",
+  "version": "1.0.0",
+  "description": "Proof-Carrying CRDTs allow Succinct Non-Interactive Byzantine Update Validation",
+  "homepage": "https://github.com/kit-dsn/proof-carrying-crdts#readme",
+  "type": "module",
+  "license": "MIT",
+  "author": "Nick Marx <nick.marx@student.kit.edu>",
+  "scripts": {
+    "recursion:linear": "tsx 'src/scripts/recursion/linear.ts'",
+    "recursion:factorial": "tsx 'src/scripts/recursion/factorial.ts'",
+    "recursion:tree": "tsx 'src/scripts/recursion/tree.ts'",
+    "dag0": "tsx 'tests/crdt/dag0.ts'",
+    "dag1:test": "tsx 'tests/crdt/dag1/test.ts'",
+    "dag1:performance": "tsx 'tests/crdt/dag1/performance.ts'",
+    "dag2:test": "tsx 'tests/crdt/dag2/test.ts'",
+    "dag2:size": "tsx 'tests/crdt/dag2/size.ts'",
+    "dag2:create": "tsx 'tests/crdt/dag2/create.ts'",
+    "dag2:verify": "tsx 'tests/crdt/dag2/verify.ts'",
+    "dag2:performance-worker": "tsx 'tests/crdt/dag2/performance-worker.ts'",
+    "dag2:performance": "tsx 'tests/crdt/dag2/performance.ts'",
+    "dag2:performance2": "tsx 'tests/crdt/dag2/performance2.ts'",
+    "counter:test": "tsx 'tests/crdt/counter/test.ts'",
+    "counter:numberOfWorkers": "tsx 'tests/crdt/counter/numberOfWorkers.ts'",
+    "hash preimage:constant": "tsx 'src/scripts/hash preimage/constant.ts'",
+    "hash preimage:double": "tsx 'src/scripts/hash preimage/double.ts'",
+    "hash preimage:arbitrary": "tsx 'src/scripts/hash preimage/arbitrary.ts'",
+    "hash collisions": "tsx 'src/scripts/hash collisions.ts'",
+    "bugs:lessThan": "tsx 'src/scripts/bugs/lessThan.ts'",
+    "bugs:freeze": "tsx 'src/scripts/bugs/freeze.ts'"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "o1js": "^2.2.0",
+    "simple-statistics": "^7.8.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.6"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

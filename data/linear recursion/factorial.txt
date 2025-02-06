@@ -1,0 +1,12 @@
+Using 16 workers.
+compile... [took 9.586s]
+create base proof... [took 4.992s]
+verify proof... valid: true in: 0 out: 1 [took 0.551s]
+create recursive proof... [took 6.850s]
+verify proof... valid: true in: 1 out: 1 [took 0.518s]
+create recursive proof... [took 7.519s]
+verify proof... valid: true in: 2 out: 2 [took 0.615s]
+create recursive proof... [took 8.002s]
+verify proof... valid: true in: 3 out: 6 [took 0.620s]
+create recursive proof... [took 7.677s]
+verify proof... valid: true in: 4 out: 24 [took 0.626s]
