@@ -1,6 +1,6 @@
 # Proof-Carrying CRDTs Allow Succinct Non-Interactive Byzantine Update Validation
 
-This repository contains the source code for the Proof-Carrying CRDTs that we present in [our paper](https://doi.org/XXXXXXX.XXXXXXX).
+This repository contains the source code for the Proof-Carrying CRDTs that we present in [our paper](https://doi.org/10.1145/3721473.3722142).
 
 ## Relevant Files
 
@@ -52,6 +52,7 @@ rm ~/.cache/o1js/*
 ```
 
 ## Links
+- https://doi.org/10.1145/3721473.3722142
 - https://github.com/o1-labs/o1js
 - https://docs.minaprotocol.com/zkapps/o1js
 - https://o1-labs.github.io/proof-systems/introduction.html
